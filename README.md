@@ -9,7 +9,7 @@ sudo apt install bind9
 ```
 acl "trusted" { // указываем лист доверенных сетей
 	localhost;
-	10.10.1.0/24;
+	192.168.1.0/24;
 };
 
 options {
